@@ -1,0 +1,85 @@
+:root{
+    --font-primary: "Lexend Deca";
+    --font-secondary: "Big Shoulders";
+}
+
+
+body{
+    background-color:#f2f2f2;
+    font-size: 15px;
+}
+
+header{
+    height: 250px;
+    
+}
+
+.container{
+    display: flex;
+    max-width: fit-content;
+    overflow: hidden;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    
+    
+    
+}
+
+img{
+    height: 50px;
+    width: 70px;
+}
+
+.card{
+    width: 280px;
+    height: 480px;
+    
+    
+}
+
+.card1{
+    background-color: #e38826;
+    
+}
+
+.card2{
+    background-color: #006970;
+}
+
+.card3{
+    background-color: #004241;
+}
+
+.content{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+#headlines{
+    color: white;
+    font-family: var(--font-secondary);
+    font-weight: 700;
+}
+
+#cardText{
+    color: white;
+    font-family: var(--font-primary);
+    font-weight: 400;
+}
+
+#button{
+    width: 100px;
+    padding: 13px;
+    border-radius: 20px;
+    border-style:inherit;
+    background-color: #f2f2f2;
+    font-family: var(--font-primary);
+    font-weight: 400;
+    
+}
+
+.btn {
+    margin-top: 80px;
+}
